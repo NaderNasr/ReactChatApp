@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import {
 
   View,
@@ -12,11 +13,19 @@ class Chat extends React.Component{
     return(
       <View>
         <Text>
-          Hello Home
+          Hello {this.props.name}
         </Text>
       </View>
     )
   }
 }
+
+// Chat.defaultProps = {
+//   name: 'Test',
+// }
+//
+// Chat.propTypes = {
+//   name: React.PropTypes.string,
+// }
 
 export default Chat;

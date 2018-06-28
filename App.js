@@ -9,6 +9,9 @@ import {
 
 } from 'react-native-router-flux'
 
+import {
+  Platform
+} from 'react-native'
 
 class App extends React.Component {
   render() {
